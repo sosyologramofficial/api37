@@ -2044,6 +2044,10 @@ print(resp.json())</code></pre>
             <section id="errors">
                 <h2><span class="emoji">❌</span> Error Responses & Limits</h2>
 
+                <div class="alert warning">
+                    <strong>⏱️ Minimum Interval Between Operations:</strong> There must be at least <strong>1 minute</strong> between each operation (generation request). Any automation or script built on this API must take this interval into account and wait at least 1 minute between consecutive requests.
+                </div>
+
                 <h3>Common Errors</h3>
                 <div class="response-box">
                     <div class="response-box-header">
